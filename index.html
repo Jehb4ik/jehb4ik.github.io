@@ -1,10 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Jehb4ik</title>
-</head>
-<body>
-<h1>Hi</h1>
-<p>I'm here</p>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}Evgeniia Przhzedzetskaia{% endblock %}
+
+{% block content %}
+<!-- partial:index.partial.html -->
+<div class="section">
+  <div class="oop"></div>
+  <div class="fixed">
+    <h1 class="large">Evgeniia Przhzedzetskaia</h1>
+    <p>ML/DL researcher.</p>
+  </div>
+</div>
+<div class="section">
+  <div class="fixed">
+    <h1>About me</h1>
+    <p>I am a ML/DL specialist.
+       My area of research is AI in medicine.</p>
+  </div>
+</div>
+<div class="section">
+  <div class="p fixed">
+      <h1>How to reach me</h1>
+      E-mail: <a href="mailto:jehb4ik@gmail.com" title="preferred method of communication">jehb4ik@gmail.com</a> <br>
+      Telegram: <a href="https://t.me/jehb4ik">https://t.me/jehb4ik</a> <br>
+      Github: <a href="https:jehb4ik.github.io">https://jehb4ik.github.io</a> </div>
+</div>
+<div class="section">
+  <p class="fixed white">“Through others we become ourselves.”<br> ― Lev S. Vygotsky</p>
+</div>
+<!-- partial -->
+  <script src='/static/http_code.jquery.com_jquery-2.2.4.js'></script>
+{% endblock %}
